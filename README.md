@@ -136,6 +136,13 @@ On Windows use `gradlew.bat test`.
 
 ---
 
+## Screenshots
+<img width="722" height="1600" alt="WhatsApp Image 2026-11-21 at 22 43 53" src="https://github.com/user-attachments/assets/a32c3656-4a48-4721-bc72-4f027759d40e" />
+<img width="722" height="1600" alt="s2" src="https://github.com/user-attachments/assets/8496b303-45ea-4fc4-a402-43adef5785bc" />
+<img width="722" height="1600" alt="s3" src="https://github.com/user-attachments/assets/5f5e930c-1ea1-47e4-933e-46f298999008" />
+<img width="722" height="1600" alt="s4" src="https://github.com/user-attachments/assets/c4324f3f-5122-4180-8dc0-0a1995622a7b" />
+
+
 ## Team DBC
 
 Built at the Daemon Hour hackathon.
