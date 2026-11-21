@@ -140,8 +140,7 @@ On Windows use `gradlew.bat test`.
 
 Built at the Daemon Hour hackathon.
 
-- Pratibha Udasmath
-- *(add your name here)*
+- *Prisha*
 
 ---
 
