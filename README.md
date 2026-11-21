@@ -109,7 +109,7 @@ app/src/main/java/com/example/ghostdrainhunter/
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/lprisha007-eng/DBC.git
+   git clone https://github.com/lprisha007-eng/Ghost_Drain_Hunter.git
    ```
 2. Open the folder in **Android Studio** and let Gradle sync.
 3. Select a device and press **Run ▶**.
