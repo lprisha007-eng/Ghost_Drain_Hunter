@@ -142,8 +142,3 @@ Built at the Daemon Hour hackathon.
 
 - *Prisha*
 
----
-
-## License
-
-Hackathon project. Add a license here if you plan to share or reuse it.
