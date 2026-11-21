@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">Ghost Drain Hunter</string>
+    <string name="notification_channel_name">Screen-Off Battery Monitor</string>
+    <string name="notification_channel_description">Notifies that Ghost Drain Hunter is actively monitoring idle battery drain.</string>
+    <string name="monitoring_notification_title">Ghost Drain Hunter</string>
+    <string name="monitoring_notification_text">Monitoring battery drain while screen is off</string>
+    
+    <!-- Smart Ghost Alert strings -->
+    <string name="alert_channel_name">Ghost Drain Alerts</string>
+    <string name="alert_channel_description">Alerts when abnormal battery drain occurs while screen is off.</string>
+    <string name="alert_notification_title">Something is draining your phone in your pocket</string>
+    <string name="alert_notification_text_short">Your phone lost %1$d%% battery in %2$s while idle.</string>
+    <string name="alert_notification_text_long">Your phone lost %1$d%% battery in %2$s (%3$s%%/hr) while idle.</string>
+
+    <!-- Navigation Tabs -->
+    <string name="tab_dashboard">Dashboard</string>
+    <string name="tab_history">History</string>
+    <string name="tab_trends">Trends</string>
+    <string name="tab_report">Report</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- Dashboard Strings -->
+    <string name="score_title">Ghost Drain Score</string>
+    <string name="score_format">%1$d/100 - %2$s</string>
+    <string name="score_not_enough_data">Not enough data yet</string>
+    <string name="score_not_enough_data_desc">Requires at least 3 valid sessions and 4 hours of idle time over the last 7 days.</string>
+    <string name="score_progress_format">%1$d of 3 valid sessions, %2$.1f of 4 idle hours</string>
+    <string name="how_calculated_btn">How this score is calculated</string>
+    <string name="score_formula_title">How this score is calculated</string>
+    <string name="score_disclaimer">This is a local heuristic based on your measured idle drain. It is not an official battery-health measurement.</string>
+    <string name="score_formula_text">Score = round( clamp(100 - 10 × avgRate, 0, 100) )</string>
+    <string name="stat_sessions_used">Valid sessions used (7d):</string>
+    <string name="stat_idle_hours">Total idle hours:</string>
+    <string name="stat_percent_lost">Total battery lost:</string>
+    <string name="stat_avg_rate">Weighted average rate:</string>
+    
+    <string name="last_screen_off_title">Last Screen-Off Session</string>
+    <string name="no_recent_session">No screen-off sessions yet. Turn your screen off for a while and check back.</string>
+    <string name="pocket_drain_banner_title">Something is draining your phone in your pocket</string>
+    <string name="pocket_drain_banner_desc">Latest session drained %1$d%% in %2$s (%3$.1f %%/hr), exceeding your limit (%4$.1f %%/hr).</string>
+    <string name="monitoring_since_format">Monitoring since %1$s</string>
+
+    <!-- Pattern Detector Strings -->
+    <string name="pattern_title">Drain Pattern</string>
+    <string name="pattern_detected_format">Your highest recorded idle drain was between %1$s.</string>
+    <string name="pattern_rate_format">Peak window rate: %1$.1f %%/hr</string>
+    <string name="pattern_no_clear_pattern">No clear pattern yet</string>
+    <string name="pattern_note">Note: Drain is assumed to be spread evenly within each session.</string>
+
+    <!-- Trends Screen Strings -->
+    <string name="trends_title">Drain Trends</string>
+    <string name="today_vs_yesterday_title">Today vs Yesterday</string>
+    <string name="today_vs_yesterday_format">%1$.1f %%/hr today (so far) vs %2$.1f %%/hr yesterday — %3$d%% %4$s</string>
+    <string name="today_vs_yesterday_similar">%1$.1f %%/hr today (so far) vs %2$.1f %%/hr yesterday — similar</string>
+    <string name="today_vs_yesterday_not_enough">Not enough data yet (requires ≥1 hour idle time on both days)</string>
+    <string name="week_vs_week_title">This Week vs Last Week</string>
+    <string name="week_vs_week_format">%1$.1f %%/hr this week vs %2$.1f %%/hr last week — %3$d%% %4$s</string>
+    <string name="week_vs_week_similar">%1$.1f %%/hr this week vs %2$.1f %%/hr last week — similar</string>
+    <string name="week_vs_week_not_enough">Not enough data yet (requires ≥1 hour idle time in each week)</string>
+    <string name="weekly_chart_title">7-Day Daily Drain Rate (%/hr)</string>
+    <string name="weekly_chart_threshold_legend">Threshold: %1$.1f %%/hr</string>
+
+    <!-- Report Screen Strings -->
+    <string name="report_title">Battery Report</string>
+    <string name="period_7_days">7 Days</string>
+    <string name="period_30_days">30 Days</string>
+    <string name="save_pdf_btn">Save PDF Report</string>
+    <string name="share_pdf_btn">Share PDF Report</string>
+    <string name="empty_report_msg">No screen-off data recorded in this period. Turn off your screen to generate a report.</string>
+    <string name="pdf_saved_success">PDF report saved successfully.</string>
+    <string name="generating_pdf">Generating PDF…</string>
+
+    <!-- Controls -->
+    <string name="btn_start_monitoring">Start Monitoring</string>
+    <string name="btn_stop_monitoring">Stop Monitoring</string>
+    <string name="status_monitoring_active">Monitoring Active</string>
+    <string name="status_monitoring_stopped">Monitoring Stopped</string>
+    <string name="btn_notifications_permission">Grant Notification Permission</string>
+
+    <!-- Settings screen -->
+    <string name="settings_title">Drain Settings</string>
+    <string name="threshold_label">Alert Threshold: %1$.1f %%/hr</string>
+    <string name="min_duration_label">Minimum Session: %1$d min</string>
+    <string name="alerts_enabled_label">Smart Ghost Alerts</string>
+    <string name="alerts_enabled_desc">Receive notifications when drain exceeds threshold</string>
+    <string name="start_fresh_btn">Start fresh</string>
+    <string name="start_fresh_desc">Delete all sessions and reset monitoring from now</string>
+    <string name="start_fresh_confirm_title">Start fresh?</string>
+    <string name="start_fresh_confirm_msg">This will delete all recorded sessions and reset tracking from right now. This action cannot be undone.</string>
+    <string name="confirm_start_fresh">Start fresh</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Sessions / History list -->
+    <string name="history_title">Screen-Off History</string>
+    <string name="filter_all">All</string>
+    <string name="filter_valid">Valid</string>
+    <string name="filter_too_short">Too Short</string>
+    <string name="filter_charging">Charging</string>
+    <string name="filter_flagged_only">Flagged only</string>
+    <string name="sort_by_date">Date</string>
+    <string name="sort_by_rate">Rate</string>
+    <string name="no_sessions_yet">No screen-off sessions yet. Turn your screen off for a while and check back.</string>
+    <string name="no_sessions_filtered">No sessions match this filter.</string>
+    <string name="session_id_label">Session #%1$d</string>
+    <string name="session_start_format">Start: %1$s (%2$d%%)</string>
+    <string name="session_end_format">End: %1$s (%2$d%%)</string>
+    <string name="session_duration_format">Duration: %1$s</string>
+    <string name="session_lost_format">Drain: %1$d%%</string>
+    <string name="session_rate_format">Rate: %1$.1f %%/hr</string>
+    <string name="session_charging_label">Charging: %1$s</string>
+    <string name="session_status_label">Status: %1$s</string>
+    <string name="session_verdict_label">Verdict: %1$s</string>
+    <string name="session_reason_label">Excluded: %1$s</string>
+    <string name="flagged_badge">FLAGGED</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="in_progress">In progress…</string>
+</resources>
